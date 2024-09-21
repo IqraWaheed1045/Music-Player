@@ -16,7 +16,7 @@ const Frontpage = () => {
             {
               all_songs.map((item, i) => {
                 return (
-                  <li className='w-[40%] my-2 ' key={i}>
+                  <li className='lg:w-[40%] w-[60%] my-2 ' key={i}>
                     <Link to={`song${item.id}`}>
 
                       <div className='w-full bg-gray-400 rounded-lg shadow-md flex items-center gap-2'>

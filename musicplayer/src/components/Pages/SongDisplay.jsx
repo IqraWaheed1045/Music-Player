@@ -22,7 +22,7 @@ const SongDisplay = ({ music }) => {
             <img src={selectedSong.bgimg} alt="song image" className='w-full h-[100%] object-cover' />
           </div>
           {/* Audio player */}
-          <div className=' relative lg:top-10 top-16 lg:w-[30%] w-[40%] '>
+          <div className=' relative lg:top-10 top-16 lg:w-[30%] w-[70%] '>
 
             <audio ref={audioRef} controls className='w-full'>
               <source src={selectedSong.song} type="audio/mpeg" />
